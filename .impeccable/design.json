@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "project": "POP Operacional Eletromidia — Concessão SP",
+  "paradigm": {
+    "primary": "P4 Atmospheric Minimalism & High-Craft UI",
+    "secondary": "P2 Kinetic Typography & Neo-Brutalist Swiss Grids",
+    "polarity": "dual-workbench-dark-and-iso-paper"
+  },
+  "tokens": {
+    "colors": {
+      "bgCanvas": "#0C0E12",
+      "bgElevated": "#13171F",
+      "bgInteractive": "#1A202C",
+      "paperSurface": "#FAF7F2",
+      "paperElevated": "#F1EDE4",
+      "textPrimary": "#F4F6F8",
+      "textSecondary": "#A0AEC0",
+      "textMuted": "#64748B",
+      "accentBrand": "#FF4F00",
+      "accentAmber": "#F59E0B",
+      "accentEmerald": "#10B981",
+      "borderHairline": "#222936"
+    },
+    "typography": {
+      "fontDisplay": "Barlow Condensed",
+      "fontSans": "Archivo",
+      "fontMono": "JetBrains Mono",
+      "numericDiscipline": "tabular-nums"
+    }
+  }
+}

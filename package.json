@@ -1,0 +1,30 @@
+{
+  "name": "pop-tutoriais-eletromidia",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5173",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --port 4173",
+    "remotion:studio": "remotion studio src/remotion/index.ts",
+    "remotion:render:16x9": "remotion render src/remotion/index.ts PreventivaTotem-16x9 out/PreventivaTotem-16x9.mp4",
+    "remotion:render:9x16": "remotion render src/remotion/index.ts PreventivaTotem-9x16 out/PreventivaTotem-9x16.mp4",
+    "pdf:generate": "node scripts/generate-pdfs.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.242",
+    "@remotion/player": "4.0.242",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "4.0.242"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.3"
+  }
+}
